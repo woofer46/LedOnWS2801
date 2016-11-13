@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -ID:\Solutions\HookahForLifan\CooCox\F407VGT6\cmsis_lib\include -ID:\Solutions\HookahForLifan\CooCox -ID:\Solutions\HookahForLifan\CooCox\F407VGT6\cmsis_boot -ID:\Solutions\HookahForLifan\CooCox\F407VGT6\cmsis_lib -ID:\Solutions\HookahForLifan\CooCox\F407VGT6\cmsis -ID:\Solutions\HookahForLifan\CooCox\F407VGT6">
+      <target file="stm32f4xx_gpio.o" lastModified="157f838ef2a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="157d909bfe4"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="157f838f36c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="157d909e38f"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="157f838ef98">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="157d90998b8"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="157f838ecf6">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="157d909987a"/>
+      </target>
+      <target file="stm32f4xx_rtc.o" lastModified="157f838f25e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rtc.c" lastModified="157f177b9ed"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="157f838f10a">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="157d91bcf5a"/>
+      </target>
+      <target file="main.o" lastModified="1580d621c8e">
+         <source file="..\..\..\main.c" lastModified="1580d621946"/>
+      </target>
+      <target file="stm32f4xx_spi.o" lastModified="157f838f02e">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_spi.c" lastModified="157d909984d"/>
+      </target>
+      <target file="stm32f4xx_rng.o" lastModified="157f838f09c">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rng.c" lastModified="157f170845d"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="157f838ee86">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="157d9099947"/>
+      </target>
+      <target file="misc.o" lastModified="157f838f178">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="157d91b1ddf"/>
+      </target>
+   </processor>
+</history>

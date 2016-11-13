@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=F407VGT6.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\F407VGT6 -TC:\CooCox\CoIDE\configuration\ProgramData\F407VGT6/arm-gcc-link.ld -g">
+      <target file="F407VGT6.elf" lastModified="1580d621e78">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="157f838ecf6"/>
+         <source file="..\obj\main.o" lastModified="1580d621c8e"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="157f838ee86"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="157f838ef2a"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="157f838ef98"/>
+         <source file="..\obj\stm32f4xx_spi.o" lastModified="157f838f02e"/>
+         <source file="..\obj\stm32f4xx_rng.o" lastModified="157f838f09c"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="157f838f10a"/>
+         <source file="..\obj\misc.o" lastModified="157f838f178"/>
+         <source file="..\obj\stm32f4xx_rtc.o" lastModified="157f838f25e"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="157f838f36c"/>
+      </target>
+   </processor>
+</history>
